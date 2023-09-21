@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+
+#horizontal{
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#coluna{
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#TelaBranca{
+    margin-left: 50px;
+    height: 500px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex: 0;
+    text-align: start;
+    flex-direction: column;
+
+}
+
+p{
+    background-color: white;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nomesEcopy p{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 80px
+}
+
+#vidasemais{
+    text-align: center;
+    background-color: gray;
+}
+
+#vidasemais img{
+    height: 50px;
+    width: 50px;
+}
+
+strong{
+    background-color: white;
+}
+
+#parabens{
+    background-color: rgb(219, 219, 219);
+    color: brown;
+    border-radius: 3px;
+}
